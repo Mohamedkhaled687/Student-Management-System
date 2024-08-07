@@ -1,7 +1,8 @@
 # Student-Management-System
 The Student Management System is a C program designed to manage student information efficiently. It provides a range of functionalities to handle various student-related operations, leveraging fundamental programming concepts and data structures. This project demonstrates practical use of conditions, loops, strings, structs, pointers, and linked lists.
 
-# Features
+## Features
+
 1 . Add a Student: Prompts the user for new student details (ID, name, age, GPA) and adds them to the system.
 2 .Display All Students: Shows a list of all stored student records.
 3 .Search for a Student by ID: Allows the user to find a specific student using their unique ID.
