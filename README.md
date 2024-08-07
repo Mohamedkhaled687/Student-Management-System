@@ -11,3 +11,28 @@ The Student Management System is a C program designed to manage student informat
 #### 6 .Calculate Average GPA: Computes and displays the average GPA of all students.
 #### 7 .Find Student with Highest GPA: Identifies and displays the student with the highest GPA.
 #### 8 .Exit: Terminates the program.
+
+## Implementation Details
+
+### The system uses a linked list to store and manage student records. Each function interacts with this list to perform the required operations, ensuring efficient management of dynamic data.
+
+#### Add a Student
+##### Prompts the user for new student details and adds them to the system by creating a new node and appending it to the linked list.
+
+#### Display All Students
+##### Traverses the linked list and prints out the details of each student stored in the system.
+
+#### Search for a Student by ID
+##### Iterates through the linked list to find and display the details of the student with the specified ID.
+
+#### Update Student Information
+##### Finds the student by ID and allows the user to update their details directly in the linked list.
+
+#### Delete a Student
+##### Removes the student node with the specified ID from the linked list and frees the associated memory.
+
+#### Calculate Average GPA
+##### Traverses the linked list to calculate the average GPA of all students and displays the result.
+
+#### Find Student with Highest GPA
+##### Iterates through the linked list to find and display the student with the highest GPA.
